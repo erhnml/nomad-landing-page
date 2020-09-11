@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const erhan = "erhan";
+  var erhan = "erhan";
 
   return (
     <div className="App">
