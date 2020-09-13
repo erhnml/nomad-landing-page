@@ -1,10 +1,13 @@
 import React from "react";
+import Theme from "./components/Theme";
 
 function App() {
   return (
-    <div className="App">
-      <p>Nomad</p>
-    </div>
+    <Theme>
+      <div className="App">
+        <p>test</p>
+      </div>
+    </Theme>
   );
 }
 
