@@ -1,6 +1,6 @@
 const theme = {
   colors: {
-    orange: "blue",
+    orange: "#FB8F1D",
   },
 };
 
