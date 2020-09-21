@@ -1,7 +1,8 @@
 import React from "react";
+import styled from "styled-components";
+
 import Theme from "./components/Theme";
 import Header from "./components/Header";
-import styled from "styled-components";
 
 function App() {
   return (
