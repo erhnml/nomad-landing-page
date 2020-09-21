@@ -1,15 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Theme from "./components/Theme";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a href="/test">learn react</a>
-      </header>
-    </div>
+    <Theme>
+      <div className="App">
+        <p>test</p>
+      </div>
+    </Theme>
   );
 }
 
