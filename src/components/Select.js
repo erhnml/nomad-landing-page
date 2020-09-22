@@ -20,8 +20,6 @@ function CustomSelect({ items }) {
 }
 const StyledSelect = styled(Select)`
   width: 220px;
-  margin-left: 20px;
-
   .ant-select-selector {
     border-radius: 6px !important;
     border-color: #afb0b9 !important;
