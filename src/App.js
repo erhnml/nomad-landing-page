@@ -3,12 +3,14 @@ import styled from "styled-components";
 
 import Theme from "./components/Theme";
 import Header from "./components/Header";
+import SectionExplore from "./components/SectionExplore";
 
 function App() {
   return (
     <Theme>
       <Container>
         <Header />
+        <SectionExplore />
       </Container>
     </Theme>
   );
