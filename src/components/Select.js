@@ -19,7 +19,8 @@ function CustomSelect({ items }) {
   );
 }
 const StyledSelect = styled(Select)`
-  width: 220px;
+  width: 100%;
+  padding: 0px 5px;
   .ant-select-selector {
     border-radius: 6px !important;
     border-color: #afb0b9 !important;

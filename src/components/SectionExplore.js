@@ -31,6 +31,10 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 40px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 0px 20px;
+  }
 `;
 const Finder = styled.div``;
 const FinderTitle = styled.h1`
@@ -39,12 +43,20 @@ const FinderTitle = styled.h1`
   font-family: "Playfair Display", sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    font-size: 48px;
+    line-height: 45px;
+  }
 `;
 const FinderSubtitle = styled.h3`
   font-size: 22px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   margin-top: 70px;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 `;
 const Divide = styled.div`
   width: 32px;
@@ -54,7 +66,13 @@ const Divide = styled.div`
   margin-top: 10px;
   margin-bottom: 10px;
 `;
-const FinderImage = styled.div``;
+const FinderImage = styled.div`
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+`;
 const SearchWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -67,5 +85,9 @@ const Image = styled.img`
 const ExploreButton = styled(Button)`
   width: 50%;
   margin-top: 30px;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-top: 10px;
+  }
 `;
 export default SectionExplore;
