@@ -14,11 +14,9 @@ function SectionInfo() {
           <InfoTitle>A new way to explore the</InfoTitle>
           <InfoTitle>world</InfoTitle>
           <Information>
-            <p>
-              For decades travellers have reached for Lonely Planet books when
-              looking to plan and execute their perfect trip, but now, they can
-              also let Lonely Planet Experiences lead the way
-            </p>
+            For decades travellers have reached for Lonely Planet books when
+            looking to plan and execute their perfect trip, but now, they can
+            also let Lonely Planet Experiences lead the way
           </Information>
           <InfoButton title="Learn More" filled />
         </Info>
@@ -53,7 +51,7 @@ const InfoTitle = styled.h2`
   margin-top: 10px;
   margin-bottom: 10px;
 `;
-const Information = styled.div`
+const Information = styled.p`
   font-size: 17px;
   line-height: 30px;
   font-family: "Mulish", sans-serif;
