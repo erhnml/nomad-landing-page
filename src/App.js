@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Theme from "./components/Theme";
 import Header from "./components/Header";
 import SectionExplore from "./components/SectionExplore";
+import SectionInfo from "./components/SectionInfo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Container>
         <Header />
         <SectionExplore />
+        <SectionInfo />
       </Container>
     </Theme>
   );
