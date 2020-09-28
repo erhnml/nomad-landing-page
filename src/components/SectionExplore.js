@@ -67,10 +67,10 @@ const Divide = styled.div`
   margin-bottom: 10px;
 `;
 const FinderImage = styled.div`
-  padding: 20px;
-
   @media (max-width: 768px) {
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    padding: 0px;
   }
 `;
 const SearchWrapper = styled.div`
