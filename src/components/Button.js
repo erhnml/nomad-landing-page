@@ -34,7 +34,7 @@ const StyledButton = styled.button`
   background-color: ${(props) =>
     props.filled ? props.theme.colors.orange : "transparent"};
   padding: 8px 40px;
-  height: 40px;
+  line-height: 29px;
   border: ${(props) =>
     !props.filled ? `1px solid ${props.theme.colors.orange}` : "none"};
   color: ${(props) => (props.filled ? "white" : props.theme.colors.orange)};

@@ -5,6 +5,7 @@ import Theme from "./components/Theme";
 import Header from "./components/Header";
 import SectionExplore from "./components/SectionExplore";
 import SectionInfo from "./components/SectionInfo";
+import SectionDestinations from "./components/SectionDestinations";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <SectionExplore />
         <SectionInfo />
+        <SectionDestinations />
       </Container>
     </Theme>
   );
