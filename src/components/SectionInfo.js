@@ -26,7 +26,7 @@ function SectionInfo() {
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
+  margin-top: 100px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     font-size: 48px;
