@@ -103,7 +103,7 @@ const ItemsWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
   min-height: 400px;
   @media (max-width: 768px) {
     grid-template-columns: repeat(4, 100%);
