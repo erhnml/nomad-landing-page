@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Carousel } from "antd";
 
 import Testimonial from "./Testimonial";
 
@@ -36,9 +37,9 @@ const data = [
 export default function SectionTestimonials() {
   return (
     <Wrapper>
-      <Title>Test</Title>
-      <TestimonialsWrapper>
-        {data.map(({ star, comment, author, authorPosition }) => (
+      <Title>Testimonials</Title>
+      <Carousel autoplay dots>
+        {data.map(({ star, comment, author, authorPosition }, index) => (
           <Testimonial
             star={star}
             comment={comment}
@@ -47,15 +48,26 @@ export default function SectionTestimonials() {
             image={require("../images/testimonial.png")}
           />
         ))}
-      </TestimonialsWrapper>
+      </Carousel>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
   margin-top: 100px;
+  @media (max-width: 768px) {
+    padding: 0 10px;
+    margin-top: 50px;
+  }
 `;
-const Title = styled.h3``;
-const TestimonialsWrapper = styled.div`
-  position: relative;
+const Title = styled.h3`
+  font-size: 36px;
+  font-family: "Playfair Display", sans-serif;
+  line-height: 50px;
+  margin-bottom: 20px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 `;
