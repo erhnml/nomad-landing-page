@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import SectionExplore from "./components/SectionExplore";
 import SectionInfo from "./components/SectionInfo";
 import SectionDestinations from "./components/SectionDestinations";
-import GuideSection from "./components/SectionGuide";
+import SectionGuide from "./components/SectionGuide";
+import SectionTestimonials from "./components/SectionTestimonials";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <SectionExplore />
         <SectionInfo />
         <SectionDestinations />
-        <GuideSection />
+        <SectionGuide />
+        <SectionTestimonials />
       </Container>
     </Theme>
   );
