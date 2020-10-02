@@ -26,7 +26,7 @@ function GuideSection() {
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 20px;
+  grid-column-gap: 40px;
   @media (max-width: 768px) {
     grid-row-gap: 20px;
     grid-template-columns: 1fr;
