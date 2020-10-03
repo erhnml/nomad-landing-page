@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 
 import Theme from "./components/Theme";
 import Header from "./components/Header";
@@ -8,6 +7,8 @@ import SectionInfo from "./components/SectionInfo";
 import SectionDestinations from "./components/SectionDestinations";
 import SectionGuide from "./components/SectionGuide";
 import SectionTestimonials from "./components/SectionTestimonials";
+import Footer from "./components/Footer";
+import Container from "./components/Container";
 
 function App() {
   return (
@@ -20,11 +21,9 @@ function App() {
         <SectionGuide />
         <SectionTestimonials />
       </Container>
+      <Footer />
     </Theme>
   );
 }
-const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-`;
+
 export default App;
