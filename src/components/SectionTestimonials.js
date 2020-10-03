@@ -38,13 +38,14 @@ export default function SectionTestimonials() {
   return (
     <Wrapper>
       <Title>Testimonials</Title>
-      <Carousel autoplay dots>
-        {data.map(({ star, comment, author, authorPosition }, index) => (
+      <Carousel autoplay>
+        {data.map(({ star, comment, author, authorPosition }) => (
           <Testimonial
             star={star}
             comment={comment}
             author={author}
             authorPosition={authorPosition}
+            // eslint-disable-next-line global-require
             image={require("../images/testimonial.png")}
           />
         ))}
