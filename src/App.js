@@ -7,6 +7,7 @@ import SectionInfo from "./components/SectionInfo";
 import SectionDestinations from "./components/SectionDestinations";
 import SectionGuide from "./components/SectionGuide";
 import SectionTestimonials from "./components/SectionTestimonials";
+import SectionStories from "./components/SectionStories";
 import Footer from "./components/Footer";
 import Container from "./components/Container";
 
@@ -20,6 +21,7 @@ function App() {
         <SectionDestinations />
         <SectionGuide />
         <SectionTestimonials />
+        <SectionStories />
       </Container>
       <Footer />
     </Theme>
